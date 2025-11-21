@@ -8,11 +8,11 @@ export default function Navbar() {
         <Link href="/" className="hover:text-blue-600 transition">
           Accueil
         </Link>
-        <Link href="/projets" className="hover:text-blue-600 transition">
-          Projets
-        </Link>
         <Link href="/cv" className="hover:text-blue-600 transition">
           CV
+        </Link>
+        <Link href="/blog" className="hover:text-blue-600 transition">
+          BLOG
         </Link>
         <Link href="/contact" className="hover:text-blue-600 transition">
           Contact

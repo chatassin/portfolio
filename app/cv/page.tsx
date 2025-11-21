@@ -1,5 +1,3 @@
-// app/cv/page.tsx (Version Ultra-Simplifiée)
-
 import CVEntry from "@/components/CVEntry";
 
 export default function CVPage() {
