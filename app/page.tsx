@@ -8,22 +8,24 @@ export default function Home() {
     <div className="flex min-h-screen flex-col bg-white font-sans dark:bg-black text-black dark:text-white">
       <Navbar />
 
-      <main className="flex flex-1 flex-col items-center justify-center px-6 text-center sm:text-left sm:flex-row sm:gap-12 max-w-5xl mx-auto">
-        <div className="flex flex-col gap-6 items-center sm:items-start max-w-lg">
-          <h1 className="text-4xl font-extrabold tracking-tight sm:text-6xl">
-            Portfolio pour le cours de{" "}
-            <span className="text-blue-600">web design</span>.
-          </h1>
-          <p className="text-lg text-zinc-600 dark:text-zinc-400 leading-relaxed">
-            Bienvenue sur mon portfolio personnel qui a pour but de montrer ce
-            que je sais faire en html.
-          </p>
+      <main className="flex flex-1 flex-col items-center justify-center px-6 text-center max-w-5xl mx-auto">
+        <div className="flex flex-col-reverse items-center justify-center gap-12 sm:flex-row sm:text-left sm:py-20 w-full">
+          <div className="flex flex-col gap-4 items-center sm:items-start max-w-xl">
+            <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl">
+              Portfolio pour le cours de{" "}
+              <span className="text-blue-600">web design</span>.
+            </h1>
+            <p className="text-base text-zinc-600 dark:text-zinc-400 leading-relaxed sm:text-lg">
+              Bienvenue sur mon portfolio personnel qui a pour but de montrer ce
+              que je sais faire en html.
+            </p>
 
-          <div className="flex gap-4 mt-4">
-            <Button href="/projets">Voir mes projets</Button>
-            <Button href="/contact" variant="outline">
-              Me contacter
-            </Button>
+            <div className="flex flex-col gap-3 mt-4 w-full sm:w-auto sm:flex-row">
+              <Button href="/projets">Voir mes projets</Button>
+              <Button href="/contact" variant="outline">
+                Me contacter
+              </Button>
+            </div>
           </div>
         </div>
       </main>
